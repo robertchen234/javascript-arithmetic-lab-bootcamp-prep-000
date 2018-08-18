@@ -1,19 +1,28 @@
-function add(a, b) {
-  a+b
-  return(add)
+var number = 10
+ 
+function add5() {
+  number += 5
 }
-
-function subtract(a, b) {
-  a-b
-  return(subtract)
+ 
+function divideBy3() {
+  number /= 3
 }
-
-function multiply(a, b) {
-  a*b
-  return(multiply)
-}
-
-function divide(a, b) {
-  a/b
-  return(divide)
-}
+ 
+divideBy3()
+ 
+console.log(number) // 3.333333333335
+ 
+add5()
+ 
+console.log(number) // 8.333333333335
+ 
+// reset number
+number = 10
+ 
+add5()
+ 
+console.log(number) // 15
+ 
+divideBy3()
+ 
+console.log(number) // 5
