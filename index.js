@@ -14,3 +14,19 @@ function add(a,b){
 function inc(n) {
   return n++;
 }
+
+function dec(n) {
+  return n--;
+}
+
+function makeInt(n) {
+  parseInt(n);
+}
+
+function makeInt(n) {
+  parseInt(n, 10);
+}
+
+function makeInt(n) {
+  parseInt(nonsense, 10)
+}
