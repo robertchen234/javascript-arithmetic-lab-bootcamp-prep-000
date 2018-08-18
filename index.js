@@ -1,9 +1,9 @@
 function add() {
-  1 + 80
+  a + b
   return(add)
 }
 
 function subtract() {
-  1 - 80
+  a - b
   return(subtract)
 }
