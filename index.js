@@ -20,17 +20,9 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  return parseInt(n);
-} else if() {
   return parseInt(n, 10);
-} else() {
-  return parseInt(nonsense, 10);
 }
 
 function preserveDecimal(n) {
   return parseFloat(n)
-}
-
-function preserveDecimal(n) {
-  return parseFloat(nonsense)
 }
